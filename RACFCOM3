@@ -1,0 +1,8 @@
+DD 'GPRUEBA.DATOS.PUBLICOS'                                             00001009
+AD 'GPRUEBA.DATOS.PUBLICOS' G                                           00010011
+PE 'GPRUEBA.DATOS.PUBLICOS' ID(GPRU1) G ACC(A)                          00020011
+PE 'GPRUEBA.DATOS.PUBLICOS' ID(GPRU2) G ACC(U)                          00030011
+PE 'GPRUEBA.DATOS.PUBLICOS' ID(GPRU3) G ACC(R)                          00040011
+PE 'GPRUEBA.DATOS.PUBLICOS' DELETE ID(FASTORG)                          00041010
+SETR GENERIC(DATASET) REFRESH                                           00050002
+

@@ -1,0 +1,16 @@
+
+RACFADM.JCL.CNTL(IRRUT100)
+
+
+ BROWSE    RACFADM.JCL.CNTL(IRRUT100) - 01.01       Line 0000000000 Co
+ Command ===>                                                  Scroll 
+********************************* Top of Data ************************
+//RACFADM1 JOB (ACCNT#),CLASS=A,MSGCLASS=X,MSGLEVEL=(1,1)             
+//IR100 EXEC  PGM=IRRUT100                                            
+//SYSPRINT DD SYSOUT=*                                                
+//SYSUT1   DD UNIT=SYSDA,SPACE=(CYL,(1,1))                            
+//SYSIN    DD *                                                       
+FASTORG                                                               
+RACFADM                                                               
+GDESA                                                                 
+******************************** Bottom of Data **********************

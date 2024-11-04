@@ -1,0 +1,23 @@
+
+RACFADM.JCL.CNTL(IRRRD0)
+
+
+ BROWSE    RACFADM.JCL.CNTL(IRRRD0) - 01.01         Line 0000000000 C
+ Command ===>                                                  Scroll
+********************************* Top of Data ***********************
+//RACFADMC JOB (ACCNT#),CLASS=A,MSGCLASS=X,MSGLEVEL=(1,1)            
+//STEP1 EXEC  PGM=IRRRID00                                           
+//SYSPRINT DD SYSOUT=*                                               
+//SYSOUT   DD SYSOUT=*                                               
+//SORTOUT  DD UNIT=SYSDA                                             
+//SYSUT1   DD UNIT=SYSDA                                             
+//INDD     DD DSN=GDESA.PLANO.RACF,DISP=SHR                          
+//OUTDD    DD DSN=GDESA.IRRRI.RACF,DISP=SHR                          
+//SYSIN    DD *                                                      
+ GDESA                                                               
+******************************** Bottom of Data *********************
+   
+
+
+
+                                                              

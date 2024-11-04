@@ -1,0 +1,14 @@
+
+RACFADM.JCL.CNTL(IRRDBU)
+
+
+VIEW       RACFADM.JCL.CNTL(IRRDBU) - 01.02                Columns 00001 00072
+Command ===>                                                  Scroll ===> CSR 
+****** ***************************** Top of Data *****************************
+000100 //RACFADMA JOB (ACCNT#),CLASS=A,MSGCLASS=X,MSGLEVEL=(1,1)              
+000200 //STEP1 EXEC  PGM=IRRDBU00,PARM=NOLOCKINPUT                            
+000300 //SYSPRINT DD SYSOUT=*                                                 
+000400 //INDD1    DD DSN=SYS1.RACFDS,DISP=SHR                                 
+000500 //OUTDD    DD DSN=GDESA.PLANO.RACF,DISP=SHR                            
+****** **************************** Bottom of Data ***************************
+                                                                              

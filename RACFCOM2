@@ -1,0 +1,16 @@
+DELGROUP GPRUEBA                                                        00010004
+ADDGROUP GPRUEBA DATA('GRUPO DE PRUEBA') SUPGROUP(GDESA) -              00011005
+         OWNER(GDESA)                                                   00012005
+DU GPRU1                                                                00020003
+DU GPRU2                                                                00030003
+DU GPRU3                                                                00040003
+AU GPRU1 NAME('GPRUEBA1') DFLTGRP(GDESA)  OWNER(GDESA)                  00050008
+ALU GPRU1 PASSWORD(123) RESUME                                          00060005
+CO GPRU1 GROUP(GPRUEBA) SPECIAL                                         00070005
+AU GPRU2 NAME('GPRUEBA2') DFLTGRP(GDESA)  OWNER(GDESA)                  00080008
+ALU GPRU2 PASSWORD(123) RESUME                                          00090005
+CO GPRU2 GROUP(GPRUEBA) SPECIAL                                         00100005
+AU GPRU3 NAME('GPRUEBA3') DFLTGRP(GDESA)  OWNER(GDESA)                  00110008
+ALU GPRU3 PASSWORD(123) RESUME                                          00120005
+CO GPRU3 GROUP(GPRUEBA) SPECIAL                                         00130005
+

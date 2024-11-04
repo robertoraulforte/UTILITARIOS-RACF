@@ -1,0 +1,14 @@
+RDELETE TCICS CICS1.TR01                                                00001001
+RDELETE TCICS CICS1.TR02                                                00002001
+RDELETE TCICS CICS1.TR03                                                00003001
+RDEFINE TCICS CICS1.TR01                                                00010000
+RDEFINE TCICS CICS1.TR02                                                00011000
+RDEFINE TCICS CICS1.TR03                                                00012000
+PE CICS1.TR01 CLASS(TCICS) ID(GPRU1) ACC(R)                             00020000
+PE CICS1.TR02 CLASS(TCICS) ID(GPRU2) ACC(R)                             00030000
+PE CICS1.TR03 CLASS(TCICS) ID(GPRU3) ACC(R)                             00040000
+PE CICS1.TR01 CLASS(TCICS) ID(KNSALAS) DEL                              00041001
+PE CICS1.TR02 CLASS(TCICS) ID(KNSALAS) DEL                              00042001
+PE CICS1.TR03 CLASS(TCICS) ID(KNSALAS) DEL                              00043001
+SETR RACLIST(TCICS) REFRESH                                             00050000
+
