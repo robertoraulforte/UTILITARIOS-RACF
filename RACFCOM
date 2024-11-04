@@ -1,0 +1,10 @@
+CONNECT GPRU1 GROUP(GDESA)                                              00000119
+ALU GPRU1 DFLTGRP(GDESA)  OWNER (GDESA)                                 00000219
+REMOVE GPRU1 GROUP(GPRUEBA)                                             00000319
+CONNECT GPRU2 GROUP(GDESA)                                              00000419
+ALU GPRU2 DFLTGRP(GDESA)  OWNER (GDESA)                                 00000519
+REMOVE GPRU2 GROUP(GPRUEBA)                                             00000619
+CONNECT GPRU3 GROUP(GDESA)                                              00000719
+ALU GPRU3 DFLTGRP(GDESA)  OWNER (GDESA)                                 00001017
+REMOVE GPRU3 GROUP(GPRUEBA)                                             00010017
+
