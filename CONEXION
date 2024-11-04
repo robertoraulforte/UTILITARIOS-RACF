@@ -1,0 +1,9 @@
+CONNECT FINCAR1 GROUP(FINANZ15)                                         00010002
+CONNECT FINCAR2 GROUP(FINANZ15)                                         00020002
+                                                                        00030000
+CONNECT RRHHCAR1 GROUP(RRHH15)                                          00040001
+CONNECT RRHHCAR2 GROUP(RRHH15)                                          00050001
+                                                                        00060000
+CONNECT TICAR1 GROUP(TI15)                                              00070001
+CONNECT TICAR2 GROUP(TI15)                                              00080001
+

@@ -1,0 +1,5 @@
+//ACTIVACION DE ACCESO                                                  00010001
+SETR GENERIC(DATASET) REFRESH                                           00020001
+SETROPTS GENERIC(TIMS) REFRESH                                          00030001
+SETROPTS GENERIC(CICS) REFRESH                                          00040001
+

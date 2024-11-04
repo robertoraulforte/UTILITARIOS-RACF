@@ -1,0 +1,8 @@
+AD 'CARRERAS.*' OWN(CARRERAS)                                           00001005
+AD 'CARRERAS.FINANZ15.DATOS' OWN(CARRERAS)                              00010004
+AD 'CARRERAS.FINANZ15.REPORTES' OWN(CARRERAS)                           00020004
+AD 'CARRERAS.RRHH15.PERSONAL' OWN(CARRERAS)                             00030004
+AD 'CARRERAS.RRHH15.NOMINAS' OWN(CARRERAS)                              00040004
+AD 'CARRERAS.TI15.CONFIG' OWN(CARRERAS)                                 00050004
+AD 'CARRERAS.TI15.SEGURIDAD' OWN(CARRERAS)                              00060004
+

@@ -1,0 +1,18 @@
+//IMS                                                                   00010000
+RDEFINE TIMS IMS0115 OWN(CARRERAS)                                      00020005
+PERMIT IMS01 CLASS(TIMS) ID(FINANZ15) ACCESS(READ)                      00030006
+                                                                        00040000
+RDEFINE TIMS IMS0215 OWN(CARRERAS)                                      00050005
+PERMIT IMS02 CLASS(TIMS) ID(RRHH15) ACCESS(READ)                        00060004
+                                                                        00061002
+SETR RACLIST(TIMS) REFRESH                                              00070002
+                                                                        00071002
+//CICS                                                                  00080000
+RDEFINE TCICSTRN CICS0115 OWN(CARRERAS)                                 00090005
+PERMIT CICS01 CLASS(TCICSTRN) ID(TICAR1) ACCESS(UPDATE)                 00100004
+                                                                        00110000
+RDEFINE TCICSTRN CICS0215 OWN(CARRERAS)                                 00120005
+PERMIT CICS02 CLASS(TCICSTRN) ID(TI15) ACCESS(READ)                     00130004
+                                                                        00131002
+SETR RACLIST(TCICSTRN) REFRESH                                          00140002
+

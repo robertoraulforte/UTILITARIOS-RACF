@@ -1,0 +1,14 @@
+//FINANZAS                                                              00010000
+PERMIT CARRERAS.FINANZ15.DATOS ID(FINANZ15) ACCESS(R)                   00020004
+PERMIT CARRERAS.FINANZ15.REPORTES ID(FINCARR1) ACCESS(U)                00030004
+                                                                        00040000
+//RRHH                                                                  00050000
+PERMIT CARRERAS.RRHH15.PERSONAL ID(RRHH15) ACCESS(READ)                 00060004
+PERMIT CARRERAS.RRHH15.NOMINAS ID(RRHHCARR1) ACCESS(UPDATE)             00070004
+                                                                        00080000
+//TI                                                                    00090000
+PERMIT CARRERAS.TI15.CONFIG ID(TI15) ACCESS(READ)                       00100004
+PERMIT CARRERAS.TI15.SEGURIDAD ID(TICARR1) ACCESS(ALTER)                00110004
+                                                                        00120002
+SETR GENERIC(DATASET) REFRESH                                           00130002
+

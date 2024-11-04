@@ -1,0 +1,7 @@
+PW USER(FINCAR1) INTERVAL(30)                                           00010003
+PW USER(FINCAR2) INTERVAL(30)                                           00011003
+PW USER(RRHHCAR1) INTERVAL(30)                                          00012003
+PW USER(RRHHCAR2) INTERVAL(30)                                          00013003
+PW USER(TICAR1) INTERVAL(30)                                            00014003
+PW USER(TICAR2) INTERVAL(30)                                            00015003
+

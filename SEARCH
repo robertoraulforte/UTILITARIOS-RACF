@@ -1,0 +1,12 @@
+SEARCH (SR)   SEARCH RACF DATABASE                                      00010000
+                                                                        00030000
+SR CLASS(NOMBRE_CLASE) FILTER(*)                                        00040000
+                                                                        00050000
+EJ. :  SR CLASS(USER) FILTER(USUAR*)                                    00070000
+                                                                        00090000
+SR CLASS(GROUP) FILTER(GDE*)                                            00100000
+                                                                        00130000
+SR MASK(NOMBRE_PREFIJO)                                                 00140000
+                                                                        00160000
+EJ.  SR MASK(SYS1)                                                      00170000
+
