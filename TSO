@@ -1,0 +1,7 @@
+AU  PEPITA NAME('PEPITA') DFLTGRP(G$MIGRA)                              00010001
+ALU PEPITA PASSWORD(DESA2024) NOEXPIRED                                 00020001
+CO  PEPITA GROUP(SYS1)                                                  00030001
+ALU PEPITA TSO(PROC(ISPFPROC) UNIT(3390) SIZE(128000) -                 00040001
+   COMMAND(ISPF) ACCTNUM(ACCT#))                                        00050000
+ALU PEPITA ROAUDIT                                                      00060001
+
