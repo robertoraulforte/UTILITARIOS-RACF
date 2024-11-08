@@ -1,0 +1,19 @@
+
+
+
+
+ BROWSE    G$MIGRA.RRFORTE.JCL(TSOUSERS) - 01.04    Line 0000000000 Co
+ Command ===>                                                  Scroll 
+********************************* Top of Data ************************
+AU MREUS NAME('MAXIMILIANO REUS') DFLTGRP(STAFE)                      
+ALU MREUS PASSWORD(CURSO24) NOEXPIRED                                 
+PW USER(MREUS) NOINTERVAL                                             
+ALU MREUS TSO(PROC(ISPFPROC) UNIT(3390) SIZE(2048) -                  
+   COMMAND(ISPF) ACCTNUM(ACCT#))                                      
+ALU MREUS ROAUDIT                                                     
+AD 'MREUS.**'                                                         
+PE 'MREUS.**' ID(MREUS) ACC(A)                                        
+PE 'MREUS.**' ID(STAFE) ACC(R)                                        
+PE 'MREUS.**' ID(GDESA) ACC(A)                                        
+SETR GENERIC(DATASET) REFRESH                                         
+******************************** Bottom of Data **********************
