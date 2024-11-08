@@ -1,0 +1,25 @@
+
+
+
+ BROWSE    G$MIGRA.RRFORTE.DBSSRC(CUR04DBD) - 01.01 Line 0000000000 
+ Command ===>                                                  Scrol
+********************************* Top of Data **********************
+DATASET   DD1=SKLHIDAM,BLOCK=4096,SCAN=0                            
+DBD    NAME=CUR04DBD,ACCESS=HIDAM                                   
+       SEGM  NAME=CURSO,BYTES=31,PTR=H,PARENT=0                     
+       FIELD NAME=(TYPE,SEQ,U),BYTES=21,START=1,TYPE=C              
+       FIELD NAME=STDCODE,BYTES=10,START=22,TYPE=C                  
+       LCHILD NAME=(INDEX,INDEXDB),PTR=INDX                         
+       SEGM  NAME=SEDEYFEC,BYTES=20,PTR=H,PARENT=CURSO              
+       FIELD NAME=(STDCLEVL,SEQ,U),BYTES=20,START=1,TYPE=C          
+       SEGM  NAME=EQUIVAL,BYTES=20,PTR=H,PARENT=CURSO               
+       FIELD NAME=PREVJOB,BYTES=10,START=1,TYPE=C                   
+       FIELD NAME=CLASSIF,BYTES=10,START=11,TYPE=C                  
+       SEGM  NAME=ALUMNOS,BYTES=75,PTR=H,PARENT=SEDEYFEC            
+       FIELD NAME=GRADLEVL,BYTES=10,START=1,TYPE=C                  
+       FIELD NAME=SCHOOL,BYTES=65,START=11,TYPE=C                   
+       SEGM  NAME=PROFESOR,BYTES=55,PTR=H,PARENT=SEDEYFEC           
+       DBDGEN                                                       
+       FINISH                                                       
+       END                                                          
+****************************** Bottom of Data **************
